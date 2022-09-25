@@ -1,0 +1,126 @@
+body {
+  background: url(./assets/quizbackground.jpg) no-repeat center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.app {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+
+.level-selector {
+  background-color: rgb(158, 239, 212);
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  margin-top: 250px;
+
+}
+
+.level-selector h1 {
+  font-size: 50px;
+  color: rgb(2, 55, 44);
+  padding-top: 60px;
+}
+
+.level-selector p {
+  font-size: 20px;
+  color: rgb(1, 20, 16);
+  padding: 30px;
+}
+
+.levels {
+  font-size: 20px;
+  color: rgb(2, 55, 44);
+  width: 10rem;
+}
+
+
+
+.level-selector .question-area {
+  background-color: rgb(133, 22, 124);
+  max-width: 1000px;
+
+}
+
+.question-area {
+  margin-top: 150px;
+}
+
+.question-area h1 {
+  font-size: 60px;
+  color: rgb(2, 55, 44);
+  padding-top: 0;
+}
+
+.question-area h3 {
+  font-size: 30px;
+  color: rgb(224, 250, 244);
+  padding: 30px;
+}
+
+
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.question-box {
+  background-color: rgb(249, 186, 117);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  margin: 10px;
+}
+
+.question-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.question-button {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkcyan;
+  color: aliceblue;
+
+}
+
+
+button:disabled {
+  background-color: darkgray;
+  color: olivedrab;
+}
+
+.back {
+  background-color: darkcyana;
+  font-size: 20px;
+  width: 8rem;
+  margin: 20px;
+}
+
+select {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkcyan;
+  color: aliceblue;
+
+}
